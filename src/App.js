@@ -130,7 +130,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path=""
             element={<Home
               items={items}
               cartItems={cartItems}
@@ -142,9 +142,9 @@ function App() {
               isLoading={isLoading}
             />} />
 
-          <Route path="/favorites" element={<Favorites />} />
+          <Route path="favorites" element={<Favorites />} />
 
-          <Route path="/orders" element={<Orders />} />
+          <Route path="orders" element={<Orders />} />
 
         </Routes>
       </div>
